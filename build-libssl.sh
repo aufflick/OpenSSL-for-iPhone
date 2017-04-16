@@ -153,7 +153,7 @@ run_make()
   fi
 
   # Check for error status
-  check_status $? "make"
+  check_status $? "make -j4"
 }
 
 # Cleanup and bookkeeping at end of build loop
